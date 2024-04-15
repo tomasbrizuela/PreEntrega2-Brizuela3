@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: poppins;
+  font-weight: 600;
+}
+
+#collapsibleNavbar {
+  justify-content: end;
+  align-items: end;
+  font-family: poppins;
+  border-top: 0.5px solid rgba(128, 128, 128, 0.358);
+}
+
+#logo {
+  width: 25px;
+  margin: 0px 0px 0px 5px;
+  line-height: 40px;
+}
+
+#brand {
+  margin: 0px;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  line-height: 40px;
+  font-family: poppins;
+  font-weight: 800;
+}
+
+/*# sourceMappingURL=style.css.map */
