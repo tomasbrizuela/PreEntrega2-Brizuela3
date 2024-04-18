@@ -21,7 +21,6 @@
   justify-content: end;
   align-items: end;
   font-family: poppins;
-  border-top: 0.5px solid rgba(128, 128, 128, 0.358);
 }
 
 #logo {
@@ -38,6 +37,48 @@
   line-height: 40px;
   font-family: poppins;
   font-weight: 800;
+}
+
+h1 {
+  margin: 50px 0px 50px 0px;
+  text-align: center;
+  font-family: poppins;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+h2 {
+  font-family: poppins;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+#demo {
+  margin: 20px 1px 0px 1px;
+  border-radius: 50px;
+}
+
+.carousel-inner {
+  border-radius: 10px;
+}
+
+p {
+  font-size: 1em;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-family: poppins;
+}
+
+footer {
+  padding: 5px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: poppins;
+  font-size: 0.6em;
 }
 
 /*# sourceMappingURL=style.css.map */
