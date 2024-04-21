@@ -1,0 +1,2 @@
+Agregué palabras clave en todas las páginas html, personalizadas para cada uno
+Cambié los títutlos de cada páginas
