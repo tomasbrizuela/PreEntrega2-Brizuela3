@@ -6,7 +6,10 @@ $color2: white;
 $sizeh: 3em;
 $sizep: 0.9em;
 $sizef : 0.6em;
-
+$border: 10px;
+$focus: none;
+$other: 18px;
+$borderForm: 1px solid grey;
 
 // Mentions: 
 @import "_footer.scss";
@@ -14,8 +17,15 @@ $sizef : 0.6em;
 @import "_header.scss";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Share+Tech+Mono&display=swap");
 
+// mixins
 
-// ---
+@mixin form ($tamaño)  {
+    border: $borderForm;
+    outline: $focus;
+    border-radius: $border;
+    margin: 5px 0x 0px 0px;
+    font-size: $tamaño;
+}
 
 // Styles:
 *{
@@ -50,5 +60,17 @@ p{
     font-family: $font;
 }
 
+label{
+    font-family: $font;
+    font-size: 18px;
+}
+input{
+    @include form ($other);
+}
 
-
+button{
+    font-family: $font;
+    font-size: $other;
+    outline: $focus;
+    border: $borderForm;
+}

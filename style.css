@@ -82,4 +82,24 @@ p {
   font-family: poppins;
 }
 
+label {
+  font-family: poppins;
+  font-size: 18px;
+}
+
+input {
+  border: 1px solid grey;
+  outline: none;
+  border-radius: 10px;
+  margin: 5px 0x 0px 0px;
+  font-size: 18px;
+}
+
+button {
+  font-family: poppins;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid grey;
+}
+
 /*# sourceMappingURL=style.css.map */
