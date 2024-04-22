@@ -3,7 +3,7 @@
 $font: poppins;
 $color: black;
 $color2: white;
-$sizeh: 3em;
+$sizeh: 2.8em;
 $sizep: 0.9em;
 $sizef : 0.6em;
 $border: 10px;
@@ -73,4 +73,8 @@ button{
     font-size: $other;
     outline: $focus;
     border: $borderForm;
+}
+
+.contactanos{
+    // font-size: 15px;
 }
